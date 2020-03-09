@@ -1,3 +1,143 @@
-.logo-web{
-  font-size: 20%;
+
+html{
+  overflow-x: hidden;
+}
+*{
+  outline: none !important;
+
+}
+body{
+  font-family: 'Barlow',sans-serif;
+}
+header{
+   
+  background: url(/img/hero-image.jpg);
+  width: 100%;
+  min-height: 765px;
+  background-size: cover;
+  background-repeat: repeat;
+
+}
+nav.navbar{
+  border-bottom: 0.5px solid #9b9b92b3;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  background: rgb(221, 221, 204);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all.4s ease-in-out;
+}
+.dropdown-menu.show {
+  background: top;
+}
+a.dropdown-item {
+  color: white;
+}
+.content-box{
+  position: relative;
+ 
+  z-index: 1000;
+  color: white;
+  padding-top: 130px;
+}
+.content-box a{
+  padding-top: 20px;
+}
+a.btn-make{
+  text-align: center;
+  padding: 20px;  
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all.2s ease-in-out;
+}
+.content-box h6{
+  text-align: center;
+  width: 45%;
+  padding: 9px;
+ background: #ff4e56;
+}
+.content-box h1{
+  font-size: 80px;
+  font-weight: bold; 
+
+}
+.content-box a{
+  position: absolute;
+ transform: translateY(20px);
+ transition: all.4s ease-in-out;
+}
+.content-box a:hover{
+  background:#ff4e56;
+  border: none;
+}
+.sec2{
+  background: rgb(212, 11, 45);
+}
+p{
+  font-size: 1.15rem;
+}
+.pic{
+  transform: translateY(150px);
+}
+@media (max-width: 992px){
+  .content-box h1{
+    font-size: 55px;
+  }
+  .content-box h6{
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+    padding: 9px;
+  }
+  .content-box a.btn-make{
+  padding: 10px;  
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all.2s ease-in-out;
+
+  }
+
+  .pic{
+    display: flex;
+    justify-content: space-evenly
+  }
+  .pic-header{
+    width: 50%;
+  } 
+  .headerText h1{
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 80px;
+  }
+  .text-about{
+    padding-bottom: 20px;
+  }
+}
+.sec1{
+  width: 100% ;
+  min-height: 750px;
+}
+.headerText h1{
+  padding-top: 70px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 80px;
+}
+.text-about{
+  padding-bottom: 20px;
+}
+.placeBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.content-pic{
+  padding-top: 10px;
+  text-align: center; 
 }
