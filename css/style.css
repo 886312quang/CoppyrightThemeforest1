@@ -105,13 +105,10 @@ p{
     justify-content: space-evenly
   }
   .pic-header{
-    width: 50%;
+    max-width: 50%;
   } 
-  .headerText h1{
-    padding-top: 20px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    font-size: 80px;
+  .header-about{
+    font-size: 50px;
   }
   .text-about{
     padding-bottom: 20px;
@@ -122,7 +119,7 @@ p{
   min-height: 750px;
 }
 .headerText h1{
-  padding-top: 70px;
+  padding-top: 80px;
   font-weight: bold;
   padding-bottom: 20px;
   font-size: 80px;
@@ -136,8 +133,69 @@ p{
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-bottom:20px;
 }
 .content-pic{
   padding-top: 10px;
   text-align: center; 
+}
+.sec2{
+  width: 100%;
+  min-height: 600px;
+  background: rgba(244, 67, 54, 0.59);
+}
+.sec2 .header-sec2{
+  padding-top: 120px;
+}
+.sec2 .imgBox{
+  padding-top: 120px;
+}
+.sec3{
+  width: 100%;
+  min-height: 550px;
+  background: #f4f4f4;
+  
+}
+.container.sec3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-sec3{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+.colors{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.product-pic{
+  background-image: url(/img/color-speaker.jpg);
+  width: 100%;
+  height: 500px;
+  font-size: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: .4s linear;
+}
+.sec3 span{
+  width: 30px;
+  height: 30px;
+  padding-top: 20px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.violet{
+  background: #411a8eeb;
+}
+.blue{
+  background: #1515dedb;
+}
+.black{
+  background:  #040404d1;
 }
