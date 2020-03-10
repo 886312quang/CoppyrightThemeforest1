@@ -5,5 +5,8 @@ $(document).ready(function () {
         $(this).addClass("active");
         $(".product-pic").css("background-image",$(this).attr("data-pic"));
       }); 
+      $().popover(options);
+      $('.shop-box').popover('show')
+     
  });
  
